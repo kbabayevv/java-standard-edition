@@ -12,7 +12,7 @@ public class ItemThreeTest {
                 }
                 System.out.println("Hashcode of Lazy: " + LazyCache.getInstance().hashCode());
                 System.out.println("Hashcode of Eager: " + EagerCache.getInstance().hashCode());
-                System.out.println("Hashcode of Enum: " + CacheSingleton.INSTANCE.hashCode());
+                System.out.println("Hashcode of Enum: " + CacheSingleton.INSTANCE.hashCode());//best practice
             }
         }).start();
 
