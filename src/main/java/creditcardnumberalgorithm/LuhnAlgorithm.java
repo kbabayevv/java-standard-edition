@@ -14,6 +14,7 @@ public class LuhnAlgorithm {
     }
 
     public static boolean isValid(String number) {
+        // Remove spaces and non-numeric characters
         number = number.replaceAll("[^0-9]", "");
         int sum = 0;
         boolean alternate = true;
