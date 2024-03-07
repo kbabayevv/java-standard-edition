@@ -1,4 +1,4 @@
-package stringbuilder;
+package creditcardnumberalgorithm;
 
 import creditcardnumberalgorithm.LuhnAlgorithm;
 
