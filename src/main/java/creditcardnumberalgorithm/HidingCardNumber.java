@@ -1,7 +1,5 @@
 package creditcardnumberalgorithm;
 
-import creditcardnumberalgorithm.LuhnAlgorithm;
-
 public class HidingCardNumber {
     public static void main(String[] args) {
         String creditCardNumber = "5678 1234 5670 1234";
